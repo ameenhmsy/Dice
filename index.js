@@ -4,7 +4,7 @@ var tab = [
   "images/dice3.png",
   "images/dice4.png",
   "images/dice5.png",
-  "images/dice6.png",
+  "images/dice6.png"
 ];
 
 function randImg() {
