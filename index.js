@@ -16,11 +16,11 @@ function randImg() {
   document.getElementsByClassName("img2")[0].setAttribute("src", tab[y]);
 
   if (x > y) {
-    document.getElementsByTagName("h1")[0].innerHTML = "Player 1 Winnwer";
+    document.getElementsByTagName("h1")[0].innerHTML = "Player 1 WINS";
   } else if (x < y) {
-    document.getElementsByTagName("h1")[0].innerHTML = "Player 2 Winnwer";
+    document.getElementsByTagName("h1")[0].innerHTML = "Player 2 WINS";
   } else {
-    document.getElementsByTagName("h1")[0].innerHTML = "Duce";
+    document.getElementsByTagName("h1")[0].innerHTML = "Draw";
   }
 }
 
